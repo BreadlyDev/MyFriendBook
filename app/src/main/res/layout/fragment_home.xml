@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50sp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:textColor="#1E668C"
+            android:text="Создать контакт"
+            android:textAlignment="center"
+            android:textSize="27sp"
+            android:layout_marginBottom="30sp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textColor="#1E668C"
+            android:text="Фамилия:"
+            android:textAlignment="textStart"
+            android:layout_marginStart="10sp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edit_surname"
+            android:layout_width="300sp"
+            android:layout_height="50sp"
+            android:layout_marginBottom="20sp"
+            android:background="@drawable/background_white"
+            android:paddingHorizontal="10sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textColor="#1E668C"
+            android:text="Имя:"
+            android:textAlignment="textStart"
+            android:layout_marginStart="10sp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="300sp"
+            android:layout_height="50sp"
+            android:layout_marginBottom="20sp"
+            android:background="@drawable/background_white"
+            android:paddingHorizontal="10sp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textColor="#1E668C"
+            android:text="Номер телефона:"
+            android:textAlignment="textStart"
+            android:layout_marginStart="10sp"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/edit_phone"
+            android:layout_width="300sp"
+            android:layout_height="50sp"
+            android:layout_marginBottom="20sp"
+            android:background="@drawable/background_white"
+            android:inputType="phone"
+            android:paddingHorizontal="10sp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textColor="#1E668C"
+            android:text="Аватар:"
+            android:textAlignment="textStart"
+            android:layout_marginStart="10sp"
+            android:layout_marginBottom="20sp"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/btn_load_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#1A92D1"
+            android:text="Выбрать фото"
+            android:fontFamily="monospace"
+            android:textSize="20sp"
+            android:paddingHorizontal="20sp"
+            android:paddingVertical="10sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20sp"
+            />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#38B83A"
+            android:text="Добавить"
+            android:fontFamily="monospace"
+            android:textSize="20sp"
+            android:paddingHorizontal="20sp"
+            android:paddingVertical="12sp"
+            android:layout_gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
